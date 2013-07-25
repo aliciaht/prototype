@@ -1,6 +1,9 @@
 Prototype::Application.routes.draw do
   resources :brandlists
 
+root :to => 'brandlists#index'
+
+match '/results' => 'pages#results'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
