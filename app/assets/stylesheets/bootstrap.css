@@ -677,6 +677,7 @@ cite {
 
 .muted {
   color: #999999;
+  font-family: 'Kaushan Script', cursive;
 }
 
 a.muted:hover,
